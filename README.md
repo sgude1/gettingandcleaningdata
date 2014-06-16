@@ -1,4 +1,4 @@
-contains the submission for the getting and cleaning data course assignment.
+Contains the submission for the getting and cleaning data course assignment.
 
 Contents are 
 
@@ -6,13 +6,13 @@ run_analysis.R script for reproducing the output
 
 and
 
-tidy.txt which is the tidy dataset to address question # 5 on the assignment.  It will created by the script
+tidy.txt which is the tidy dataset to address question # 5 on the assignment.  It will created by the script.
 
 
 To run the script you must have downloaded the following dataset into your working directory for R: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 Steps to download and unzip are contained in the script but are commented out.
 
-Packages live in the creation environment were:  datasets, reshape, stats and utils.
+Packages that were live in the creation environment were:  datasets, reshape, stats and utils.
 
 The steps of the assignment were run out of order and are noted with comments in the script.
 
@@ -43,9 +43,9 @@ activcode is added to both datasets above to add the number of the activity for 
 activity = the label of the activity as defined by activcode above
 
 mergeddata = the combined dataset of training and test
-mergeddata_mean_and_std = the dataset for #2 that only includes columns with mean or std labels
+mergeddata_mean_and_std = the dataset for #2.  I assumed that the intention of #2 was to only include columns with mean or std labels as opposed to using all columns and taking the mean and standard deviation of those columns.  
 
 columnnames = name of columns present in the features dataset for use on #5
 
 molten2 = data for melt activity in #5 using mergeddata dataset
-tidy = cast of molten2 data means to address #5 using subject+activity and column variables 
+tidy = cast of molten2 data means to address #5 using subject+activity and column variables.  For this item I assumed we wanted the subject and activity means applied to each of the measures.  I assumed we wanted to leave all measures as is from the original dataset and did not want to simply provide an overall average of all measures broken out by subject and activity (30x6 values).
