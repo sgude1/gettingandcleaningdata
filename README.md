@@ -1,4 +1,4 @@
-This contains the submission for the getting and cleaning data course assignment.
+contains the submission for the getting and cleaning data course assignment.
 
 Contents are 
 
@@ -37,7 +37,7 @@ activitylabels = /UCI HAR Dataset/activity_labels.txt
 subjecttrain = /UCI HAR Dataset/train/subject_train.txt
 features = /UCI HAR Dataset/features.txt
 
-subject is created in traininga and test datasets to ID the subject number
+subject is created in training and test datasets to ID the subject number
 activcode is added to both datasets above to add the number of the activity for mapping to the label
 
 activity = the label of the activity as defined by activcode above
