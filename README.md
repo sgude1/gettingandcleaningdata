@@ -48,4 +48,4 @@ mergeddata_mean_and_std = the dataset for #2 that only includes columns with mea
 columnnames = name of columns present in the features dataset for use on #5
 
 molten2 = data for melt activity in #5 using mergeddata dataset
-tidy = cast of molten2 data means to address #5 using subject+activity and column variables
+tidy = cast of molten2 data means to address #5 using subject+activity and column variables 
